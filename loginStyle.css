@@ -1,0 +1,85 @@
+*,
+html {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: url(hitam_putih.jpeg);
+  background-size: cover;
+}
+
+.container {
+  width: 500px;
+
+  /* background-color: aqua; */
+  margin: 10px 50px;
+  position: absolute;
+  right: 50px;
+}
+
+.layout {
+  /* background-color: brown; */
+  margin-left: 80px;
+}
+
+.bahasa {
+  margin: 5px 10px;
+  padding: 5px;
+  /* background-color: bisque; */
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+li {
+  margin: 10px;
+  list-style-type: none;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+li:hover {
+  background-color: rgb(4, 9, 14);
+  color: white;
+}
+
+.title {
+  margin: 70px 10px 10px 10px;
+  /* background-color: blue; */
+}
+
+h1 {
+  font-size: 30px;
+}
+
+.textField {
+  margin-left: 10px;
+  /* background-color: blueviolet; */
+}
+
+input {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  width: 300px;
+  height: 20px;
+  padding: 2px;
+}
+
+button {
+  margin-top: 20px;
+  width: 310px;
+  height: 40px;
+  padding: 2px;
+  font-size: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: gray;
+  color: whitesmoke;
+}
